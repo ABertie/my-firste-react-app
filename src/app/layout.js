@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
       <body>
         <header>
           <nav>
-            <ul>
+            <ul className='flex gap-2'>
               <li>
                 <a href="/">Forsiden</a>
               </li>
@@ -20,6 +20,9 @@ export default function RootLayout({ children }) {
               </li>
               <li>
                 <a href="/pokemons">Pokemons</a>
+              </li>
+              <li>
+                <a href="/form">Form</a>
               </li>
             </ul>
           </nav>
